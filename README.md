@@ -1,2 +1,4 @@
-# krisfornemaha.com
-Official Website for Kris Anderson for Nemaha County School Board
+# duaneforcobank.com   
+
+Official site for Duane Anderson for CoBank Board Re-Election
+
