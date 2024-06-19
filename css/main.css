@@ -92,20 +92,20 @@ body {
 	padding: 0 0 0 270px;
 }
 
-h3 {
-    text-align: center;
-}
-
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
 .left-sidebar {
 	float: left;
 	width: 250px;
+    height: 1000px;
 	margin-left: -100%;
 	position: relative;
     background-color: #f1f1f1;
 }
 
+h3 {
+    text-align: center;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
