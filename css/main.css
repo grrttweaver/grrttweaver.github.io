@@ -26,9 +26,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url('../assets/wheat-field.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -90,6 +93,9 @@ body {
 }
 .content {
 	padding: 0 0 0 270px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding-bottom: 10px;
 }
 
 /* Left Sidebar
@@ -98,12 +104,15 @@ body {
 	float: left;
 	width: 250px;
     height: 1000px;
-	margin-left: -100%;
-	position: relative;
+	padding: 5px;
+	position: absolute;
     background-color: #f1f1f1;
+	top: 12px;
+	left: 0;
+	border-radius: 5px;
 }
 
-h3 {
+h4 {
     text-align: center;
 }
 
@@ -123,8 +132,8 @@ img {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
+    list-style-type: square;
+    margin: 20px;
     padding: 0;
     width:1 200px;
     background-color: #f1f1f1;
@@ -141,4 +150,17 @@ ul {
   li a:hover {
     background-color: #555;
     color: white;
+}
+
+.iconContain {
+	float: left;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	height: 60px;
+	width: 60px;
+}
+
+.nomen {
+	text-align: center;
 }
