@@ -1,0 +1,138 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr;
+    grid-template-rows: 0.3fr 1.7fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "title title"
+        "sidebar profile";
+    grid-area: content;
+    background-color: #f0f0f0;
+}
+
+.title {
+    grid-area: title;
+    height: 100px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "youtube"
+        "statement"
+        "themeOptions"
+        "themes"
+        "resume";
+    grid-area: profile;
+}
+
+.youtube {
+    grid-area: youtube;
+}
+
+.statement {
+    grid-area: statement;
+}
+
+.themeOptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "themeOption1 themeOption2 themeOption3";
+    grid-area: themeOptions;
+}
+
+.themeOption1 {
+    grid-area: themeOption1;
+}
+
+.themeOption2 {
+    grid-area: themeOption2;
+}
+
+.themeOption3 {
+    grid-area: themeOption3;
+}
+
+.themes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "theme1"
+        "theme2"
+        "theme3";
+    grid-area: themes;
+}
+
+.theme1 {
+    grid-area: theme1;
+}
+
+.theme2 {
+    grid-area: theme2;
+}
+
+.theme3 {
+    grid-area: theme3;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "occupation"
+        "education"
+        "priorWork"
+        "accomplishments"
+        "civic";
+    grid-area: resume;
+}
+
+.occupation {
+    grid-area: occupation;
+}
+
+.education {
+    grid-area: education;
+}
+
+.priorWork {
+    grid-area: priorWork;
+}
+
+.accomplishments {
+    grid-area: accomplishments;
+}
+
+.civic {
+    grid-area: civic;
+}
+
+body {
+    margin: 25px 25px 25px 25px;
+    background-image: url("../assets/wheat-field.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}

@@ -164,3 +164,27 @@ ul {
 .nomen {
 	text-align: center;
 }
+
+.back25 {
+	height: 300px;
+	width: 400px;
+	text-align: left;
+	float: left;
+	margin: 0px 15px 15px 0px;
+}
+
+.fampic {
+	height: 300px;
+	width: 450px;
+	text-align: right;
+	float: right;
+	margin: 15px 15px 15px 15px;
+}
+
+.marine {
+	height: 400px;
+	width: 300px;
+	text-align: left;
+	float: left;
+	margin: 0px 15px 15px 0px;
+}
