@@ -170,7 +170,7 @@ ul {
 	width: 400px;
 	text-align: left;
 	float: left;
-	margin: 0px 15px 15px 0px;
+	margin: 0px 15px 15px 15px;
 }
 
 .fampic {
@@ -186,5 +186,5 @@ ul {
 	width: 300px;
 	text-align: left;
 	float: left;
-	margin: 0px 15px 15px 0px;
+	margin: 0px 15px 15px 15px;
 }
